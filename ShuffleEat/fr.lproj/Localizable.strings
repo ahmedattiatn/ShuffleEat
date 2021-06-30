@@ -1,0 +1,34 @@
+/* 
+ Localizable.strings
+ ShuffleEat
+ 
+ Created by Ahmed ATIA on 24/09/2020.
+ Copyright © 2020 Ahmed ATIA. All rights reserved.
+ */
+
+"mapErrorTitle" = "Erreur";
+"mapError" = "Google maps n'est pas installer";
+"notifErrorTitle" = "Les Notifications ne sont pas Activer";
+"notifError" = "Veuillez activer les notifications dans vos paramètres";
+"prefErrorTitle" = "Attention";
+"prefError" = "Il faut choisir au moins 2 categories";
+"locationErrorTitle" = "Les services de localisation sont désactivés";
+"locationError" = "Veuillez activer les services de localisation dans vos paramètres pour utiliser l'application";
+
+
+"notifTitle" = "C'est l'heure !";
+"notifBody" = "Vous voulez essayer un nouveau restaurant aujourd'hui";
+
+
+"btnValider" = "Valider";
+"btnMap" = "Localiser";
+"btnGoToListe" = "Voir La Liste !";
+"btnCancel" = "Annuler";
+
+"mainScreenTitle" = "Manger ici !";
+
+"labelUpdate" = "Modifier";
+"notifTime" = "Heure de notification";
+"labelCritere" = "Critéres de recherche";
+"labelGastro" = "Critéres Gastronomiques";
+"LabelNoResto" = "Pas de restaurant de ce type dans la zone mentionnée";

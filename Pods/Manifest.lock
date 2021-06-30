@@ -1,0 +1,51 @@
+PODS:
+  - Cosmos (22.1.0)
+  - MapleBacon (6.1.0)
+  - paper-onboarding (6.1.5)
+  - R.swift (5.2.2):
+    - R.swift.Library (~> 5.2.0)
+  - R.swift.Library (5.2.0)
+  - Sentry (5.2.2):
+    - Sentry/Core (= 5.2.2)
+  - Sentry/Core (5.2.2)
+  - TagListView (1.4.0)
+
+DEPENDENCIES:
+  - Cosmos (~> 22.1)
+  - MapleBacon
+  - paper-onboarding
+  - R.swift
+  - Sentry (from `https://github.com/getsentry/sentry-cocoa.git`, tag `5.2.2`)
+  - TagListView (~> 1.0)
+
+SPEC REPOS:
+  trunk:
+    - Cosmos
+    - MapleBacon
+    - paper-onboarding
+    - R.swift
+    - R.swift.Library
+    - TagListView
+
+EXTERNAL SOURCES:
+  Sentry:
+    :git: https://github.com/getsentry/sentry-cocoa.git
+    :tag: 5.2.2
+
+CHECKOUT OPTIONS:
+  Sentry:
+    :git: https://github.com/getsentry/sentry-cocoa.git
+    :tag: 5.2.2
+
+SPEC CHECKSUMS:
+  Cosmos: 2795b36ad4bbea1af3050d6d65576ed63875f86a
+  MapleBacon: 695c9c2fd4df2147841e963570b9fb6941d03a36
+  paper-onboarding: fede1799b1da6988f3788e3b71654583c6f3bce1
+  R.swift: 7c52cdc57a66840ffe6cbd8a823d732059d42a32
+  R.swift.Library: 5ba4f1631300caf9a4d890186930da85d540769d
+  Sentry: 8fa58a051237554f22507fb483b9a1de0171a2dc
+  TagListView: 987b0bdbb16cd9d9e7c0e2ec32aff37ecba8b173
+
+PODFILE CHECKSUM: c7dfc91b7b65c6086f22e1b9fc7c569aa12826a7
+
+COCOAPODS: 1.8.4

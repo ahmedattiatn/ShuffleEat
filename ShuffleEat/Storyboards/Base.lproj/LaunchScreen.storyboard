@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="orangeShade" translatesAutoresizingMaskIntoConstraints="NO" id="xGi-tJ-ara">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="salade" translatesAutoresizingMaskIntoConstraints="NO" id="51W-uh-CyF">
+                                <rect key="frame" x="89.5" y="332" width="235" height="232"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Bitmap" translatesAutoresizingMaskIntoConstraints="NO" id="QPM-ps-xr2">
+                                <rect key="frame" x="0.0" y="44" width="414" height="852"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="xGi-tJ-ara" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="KAD-Kp-liL"/>
+                            <constraint firstAttribute="bottom" secondItem="QPM-ps-xr2" secondAttribute="bottom" id="KQj-9U-XAv"/>
+                            <constraint firstItem="51W-uh-CyF" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="N9X-IH-YhF"/>
+                            <constraint firstItem="QPM-ps-xr2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Soe-Re-pQU"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="QPM-ps-xr2" secondAttribute="trailing" id="ZTf-gP-wpm"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="xGi-tJ-ara" secondAttribute="trailing" id="a4j-IK-E4v"/>
+                            <constraint firstItem="QPM-ps-xr2" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="fry-hE-zbm"/>
+                            <constraint firstItem="xGi-tJ-ara" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="g4x-oN-KVU"/>
+                            <constraint firstAttribute="bottom" secondItem="xGi-tJ-ara" secondAttribute="bottom" id="lAv-cJ-OLz"/>
+                            <constraint firstItem="51W-uh-CyF" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="zyF-oB-1x4"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Bitmap" width="210" height="446"/>
+        <image name="orangeShade" width="512" height="512"/>
+        <image name="salade" width="235" height="232"/>
+    </resources>
+</document>

@@ -1,0 +1,7 @@
+${PODS_ROOT}/Target Support Files/Pods-ShuffleEat/Pods-ShuffleEat-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Cosmos/Cosmos.framework
+${BUILT_PRODUCTS_DIR}/MapleBacon/MapleBacon.framework
+${BUILT_PRODUCTS_DIR}/R.swift.Library/Rswift.framework
+${BUILT_PRODUCTS_DIR}/Sentry/Sentry.framework
+${BUILT_PRODUCTS_DIR}/TagListView/TagListView.framework
+${BUILT_PRODUCTS_DIR}/paper-onboarding/paper_onboarding.framework

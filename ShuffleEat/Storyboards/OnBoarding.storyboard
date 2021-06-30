@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--On Boarding View Controller-->
+        <scene sceneID="KO7-Eq-Lo3">
+            <objects>
+                <viewController storyboardIdentifier="OnBoardingViewController" id="VHI-8f-bhz" customClass="OnBoardingViewController" customModule="ShuffleEat" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ub1-A8-yQp">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8kM-gY-dPG" customClass="OnBoardingView" customModule="ShuffleEat" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </view>
+                            <button opaque="NO" alpha="0.0" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IHm-W5-VjB">
+                                <rect key="frame" x="20" y="717" width="374" height="58"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="58" id="t0t-vk-4XU"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="18"/>
+                                <state key="normal" title="Get Started">
+                                    <color key="titleColor" systemColor="systemGray6Color" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="finishOnBoarding:" destination="VHI-8f-bhz" eventType="touchUpInside" id="jFf-xy-nLv"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="8kM-gY-dPG" firstAttribute="top" secondItem="ub1-A8-yQp" secondAttribute="top" id="04N-LY-wD3"/>
+                            <constraint firstItem="hhC-fX-W8e" firstAttribute="trailing" secondItem="IHm-W5-VjB" secondAttribute="trailing" constant="20" id="5To-RL-GQf"/>
+                            <constraint firstItem="IHm-W5-VjB" firstAttribute="leading" secondItem="hhC-fX-W8e" secondAttribute="leading" constant="20" id="H2a-n0-rTY"/>
+                            <constraint firstItem="8kM-gY-dPG" firstAttribute="trailing" secondItem="hhC-fX-W8e" secondAttribute="trailing" id="Rxc-8P-qb7"/>
+                            <constraint firstItem="hhC-fX-W8e" firstAttribute="bottom" secondItem="IHm-W5-VjB" secondAttribute="bottom" constant="87" id="ajN-Tl-sSf"/>
+                            <constraint firstItem="8kM-gY-dPG" firstAttribute="bottom" secondItem="ub1-A8-yQp" secondAttribute="bottom" id="fYa-C1-cQC"/>
+                            <constraint firstItem="8kM-gY-dPG" firstAttribute="leading" secondItem="hhC-fX-W8e" secondAttribute="leading" id="zuo-BE-lWy"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="hhC-fX-W8e"/>
+                    </view>
+                    <connections>
+                        <outlet property="getStartedButton" destination="IHm-W5-VjB" id="B0M-bh-DV7"/>
+                        <outlet property="onBoardingView" destination="8kM-gY-dPG" id="ucp-ve-iL5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GHL-ze-ifT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-226.08695652173915" y="85.714285714285708"/>
+        </scene>
+    </scenes>
+</document>

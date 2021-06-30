@@ -1,0 +1,34 @@
+/* 
+ Localizable.strings
+ ShuffleEat
+ 
+ Created by Ahmed ATIA on 24/09/2020.
+ Copyright © 2020 Ahmed ATIA. All rights reserved.
+ */
+
+"mapErrorTitle" = "Error";
+"mapError" = "Google maps is not installed";
+"notifErrorTitle" = "Notification is not authorized";
+"notifError" = "Please enable the notifications in your settings";
+"prefErrorTitle" = "Warning";
+"prefError" = "You must choose at least 2 categories";
+"locationErrorTitle" = "Location Services are disabled";
+"locationError" = "Please enable Location Services in your Settings to use the application";
+
+
+"notifTitle" = "It's Time !";
+"notifBody" = "let's try a new restaurant today";
+
+
+"btnValider" = "Validate";
+"btnMap" = "Locate";
+"btnGoToListe" = "Check the list !";
+"btnCancel" = "Cancel";
+
+"mainScreenTitle" = "Eat here !";
+
+"labelUpdate" = "Edit";
+"notifTime" = "Notification Time";
+"labelCritere" = "Search Criteria";
+"labelGastro" = "Gastronomic criteria";
+"LabelNoResto" = "No such restaurant in the mentioned area";
